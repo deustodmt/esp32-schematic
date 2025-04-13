@@ -1,0 +1,5 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,GPS,PinHeader_1x06_P2.54mm_Vertical,80.65,-17.5,-90.0,top
+R1,120R,R_1206_3216Metric,112.0375,-39.5,0.0,top
+U1,ESP32-S3-DEVKITC-1U-N8R2,XCVR_ESP32-S3-DEVKITC-1U-N8R2,80.93,-71.17,0.0,top
+U2,TJA1051T,SOIC-8_3.9x4.9mm_P1.27mm,119.525,-52.095,0.0,top
