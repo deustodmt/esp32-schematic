@@ -2512,7 +2512,7 @@
 		)
 		(uuid "8002b405-831e-40af-b733-0893e4f8619f")
 	)
-	(text_box "DUDAS:\n- Tengo también conectar la alimentación del CAN a un puerto GPIO en vez de a la alimentación para evitar que haya problemas con el arranque?\n\n- El MPU 6886 no lo he podido encontrar, no sé ni si existe, por lo que he puesto el MPU-6000"
+	(text_box "DUDAS:\n- Tengo también conectar la alimentación del CAN a un puerto GPIO en vez de a la alimentación para evitar que haya problemas con el arranque?\n\n- El MPU 6886 no lo he podido encontrar, no sé ni si existe como chip, por lo que he puesto el MPU-6000\n\n- Para el sensor de humedad no está disponible el chip QMP6988, por lo que no sé si hacer yo el chip o utilizar el sensor entero y atornillarlo a la placa o usar otro sensor diferente.\n"
 		(exclude_from_sim no)
 		(at 218.44 25.4 0)
 		(size 58.42 60.96)
@@ -3831,7 +3831,7 @@
 				)
 			)
 		)
-		(property "Value" "GPS"
+		(property "Value" "GN-2630G"
 			(at 113.03 81.28 90)
 			(effects
 				(font
