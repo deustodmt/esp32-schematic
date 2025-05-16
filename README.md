@@ -61,7 +61,7 @@ Para el diseño del proyecto se ha utilizado **KiCad**, una suite libre de dise�
 
 ### Comando recomendable para linux:
 Para la implementación de easyeda2kicad
-'''
+<pre>
 kicadcomponent() {
     for arg in "$@"; do
         if [[ $arg == "-h" ]]; then
@@ -81,7 +81,7 @@ kicadcomponent() {
     source ~/Projects/venv/easyeda-env/bin/activate
     easyeda2kicad --full --overwrite --lcsc_id="$1" --output="$2"
 }
-'''
+</pre>
 
 ---
 
