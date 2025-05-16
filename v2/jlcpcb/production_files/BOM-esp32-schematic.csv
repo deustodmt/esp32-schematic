@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,LCSC,Quantity
+TJA1051T,U2,SOIC-8_3.9x4.9mm_P1.27mm,,1
+GPS,J1,PinHeader_1x06_P2.54mm_Vertical,,1
+ESP32-S3-DEVKITC-1U-N8R2,U1,XCVR_ESP32-S3-DEVKITC-1U-N8R2,,1
+120R,R1,R_1206_3216Metric,,1
