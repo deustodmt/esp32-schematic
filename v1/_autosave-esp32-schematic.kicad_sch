@@ -5939,7 +5939,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 157.48) (xy 50.8 157.48)
+			(xy 43.18 157.48) (xy 50.8 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6959,7 +6959,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 176.53) (xy 41.91 173.99)
+			(xy 43.18 176.53) (xy 43.18 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6989,7 +6989,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 157.48) (xy 41.91 166.37)
+			(xy 43.18 157.48) (xy 43.18 166.37)
 		)
 		(stroke
 			(width 0)
@@ -7838,7 +7838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "easyeda2kicad:R0603"
 			(at 37.592 134.62 90)
 			(effects
 				(font
@@ -8252,74 +8252,6 @@
 			(project "esp32-schematic"
 				(path "/0b97c97b-4427-4b8f-b5fe-10ac9c5d425c"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 46.99 134.62 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b761a4f-fb35-4b07-a8e7-4aead3785464")
-		(property "Reference" "R3"
-			(at 53.34 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 50.8 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 48.768 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "855c0e10-abf8-4dc8-ac1c-6cfdf4da6a9a")
-		)
-		(pin "1"
-			(uuid "60456f6c-c418-469a-8b96-7dbb59b29d9a")
-		)
-		(instances
-			(project ""
-				(path "/0b97c97b-4427-4b8f-b5fe-10ac9c5d425c"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9317,74 +9249,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 41.91 170.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d77521c-1d1e-403a-ab58-86d45901bfda")
-		(property "Reference" "R7"
-			(at 48.26 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 45.72 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 43.688 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 41.91 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ba10210d-6137-403f-9394-9e7836c78f61")
-		)
-		(pin "1"
-			(uuid "281a5b4a-8e10-476d-96c0-49e0cf43e0e1")
-		)
-		(instances
-			(project "esp32-schematic"
-				(path "/0b97c97b-4427-4b8f-b5fe-10ac9c5d425c"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 116.84 91.44 180)
 		(unit 1)
@@ -9444,6 +9308,74 @@
 			(project "esp32-schematic"
 				(path "/0b97c97b-4427-4b8f-b5fe-10ac9c5d425c"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 134.62 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5eefbf79-d2bf-4404-b1bb-a947dbd61125")
+		(property "Reference" "R3"
+			(at 49.276 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 44.45 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 45.212 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "339930fb-99ea-47cf-8854-a1c9ded76265")
+		)
+		(pin "1"
+			(uuid "f660d60f-18a1-45ea-a9bb-1233b60702c0")
+		)
+		(instances
+			(project "esp32-schematic"
+				(path "/0b97c97b-4427-4b8f-b5fe-10ac9c5d425c"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10012,7 +9944,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 176.53 0)
+		(at 43.18 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10021,7 +9953,7 @@
 		(fields_autoplaced yes)
 		(uuid "6eec3348-ef56-402c-8350-c2d16686b8a1")
 		(property "Reference" "#PWR015"
-			(at 41.91 182.88 0)
+			(at 43.18 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10030,7 +9962,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 181.61 0)
+			(at 43.18 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10038,7 +9970,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 176.53 0)
+			(at 43.18 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10047,7 +9979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 176.53 0)
+			(at 43.18 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10056,7 +9988,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 176.53 0)
+			(at 43.18 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11425,6 +11357,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 43.18 170.18 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8a9b0d7-37c2-4b42-bf46-3fe133ebcd96")
+		(property "Reference" "R7"
+			(at 45.466 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 40.64 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 41.402 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 43.18 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4572a4eb-8171-4510-872f-e31356c92bc0")
+		)
+		(pin "1"
+			(uuid "26b185d4-8b75-4732-a404-a503cbd03aef")
+		)
+		(instances
+			(project "esp32-schematic"
+				(path "/0b97c97b-4427-4b8f-b5fe-10ac9c5d425c"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:ESP32-S3-DEVKITC-1U-N8R2")
 		(at 53.34 55.88 0)
 		(unit 1)
@@ -12300,73 +12300,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 139.7 85.09 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "beea04d5-b52b-4389-836a-57ae7b026704")
-		(property "Reference" "R8"
-			(at 143.51 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 143.51 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 141.478 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 139.7 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b3db646d-93eb-4788-906d-44d98f9d7e64")
-		)
-		(pin "1"
-			(uuid "208f0b86-1ec0-4f84-b1f4-85979d0d4acf")
-		)
-		(instances
-			(project "esp32-schematic"
-				(path "/0b97c97b-4427-4b8f-b5fe-10ac9c5d425c"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
 		(at 255.27 139.7 0)
 		(unit 1)
@@ -12809,6 +12742,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 35.56 170.18 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e22065cc-b4fb-4889-8a74-20a99ec4d1b7")
+		(property "Reference" "R6"
+			(at 37.846 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 33.02 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 33.782 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 35.56 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d006ce27-8af0-406d-bda3-c83b01b1162c")
+		)
+		(pin "1"
+			(uuid "2abf8eda-2978-4f5c-acf5-e03f1d118426")
+		)
+		(instances
+			(project "esp32-schematic"
+				(path "/0b97c97b-4427-4b8f-b5fe-10ac9c5d425c"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 166.37 39.37 0)
 		(unit 1)
@@ -12940,6 +12941,74 @@
 			(project "esp32-schematic"
 				(path "/0b97c97b-4427-4b8f-b5fe-10ac9c5d425c"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 85.09 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebc3eb5b-28d8-4c78-8ec2-efc8386563b6")
+		(property "Reference" "R8"
+			(at 141.986 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 137.16 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 137.922 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dd8db796-9edd-467e-b8d1-6a4c324a8497")
+		)
+		(pin "1"
+			(uuid "c8e86baf-5f63-42dc-861a-0f93ae550243")
+		)
+		(instances
+			(project "esp32-schematic"
+				(path "/0b97c97b-4427-4b8f-b5fe-10ac9c5d425c"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13088,74 +13157,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 35.56 170.18 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6c525bf-f8a2-48d5-af6b-8988f18d9fdc")
-		(property "Reference" "R6"
-			(at 29.21 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 31.75 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 33.782 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 35.56 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7797a143-b09f-4b3b-9044-0ad4321f46ed")
-		)
-		(pin "1"
-			(uuid "b8f4609e-1177-40b8-b7a0-36983b320ec0")
-		)
-		(instances
-			(project "esp32-schematic"
-				(path "/0b97c97b-4427-4b8f-b5fe-10ac9c5d425c"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 114.3 91.44 0)
 		(unit 1)
@@ -13246,7 +13247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "easyeda2kicad:R0603"
 			(at 29.972 134.62 90)
 			(effects
 				(font

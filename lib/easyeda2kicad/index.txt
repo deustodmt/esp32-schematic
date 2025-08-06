@@ -1,0 +1,4 @@
+# Here are the Footprint names of the components, which may be repeated, since they use the same footprint
+
+Footprint name: R0603 is a 10k-resistor
+Footprint name: R0603 is a 120-resistor
